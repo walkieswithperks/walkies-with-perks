@@ -73,16 +73,20 @@
 }
 
 @media (max-width: 480px) {
+  .site-topbar {
+    padding: 14px 16px;
+    gap: 8px;
+  }
   .site-topbar-name {
-    font-size: 17px;
+    font-size: 22px;
     letter-spacing: 1px;
   }
   .site-topbar-contact {
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
   }
   .site-topbar-contact a {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
